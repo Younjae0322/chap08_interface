@@ -13,12 +13,12 @@ public class StudentMain {
 		Student std8 = new Student("1292502", "911011-1809003", "백태성", 3, "서울", 95);
 		
 		System.out.println("[학생명단]");
-		System.out.println("학번 \t   주민번호  \t이름 \t학년 \t주소 \t학과");
+		System.out.println("학번 \t   주민번호  \t 이름 \t학년 \t주소 \t학과");
 		
 		Student[] arr = {std1, std2, std3, std4, std5, std6, std7, std8};
 		for(Student student : arr) {
-			System.out.println(student.id + "\t" + student.jumin + ",\t" + student.name + ",\t" + student.year
-					+ ",\t" + student.address + ",\t" + student.department);
+			System.out.println(student.id + "\t" + student.jumin + "\t" + student.name + "\t" + student.year
+					+ "\t" + student.address + "\t" + student.department);
 		}
 		
 
